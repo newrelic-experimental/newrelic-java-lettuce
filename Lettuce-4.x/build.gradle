@@ -1,0 +1,31 @@
+
+// Build.gradle generated for instrumentation module Lettuce-4.x
+
+apply plugin: 'java'
+
+dependencies {
+   implementation  'biz.paluch.redis:lettuce:4.4.1.Final'
+   // New Relic Java Agent dependencies
+   implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
+   implementation 'com.newrelic.agent.java:newrelic-api:6.0.0'
+   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   
+    testImplementation 'com.github.kstyrc:embedded-redis:0.6'
+   testImplementation fileTree(include: ['*.jar'], dir: '../libs')
+   testImplementation 'junit:junit:4.12'
+   
+}
+
+jar {
+  manifest {
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.Lettuce-4.x'
+    attributes 'Implementation-Vendor': 'New Relic'
+    attributes 'Implementation-Vendor-Id': 'com.newrelic'
+    attributes 'Implementation-Version': 1.0
+  }
+}
+
+verifyInstrumentation {
+ passes 'biz.paluch.redis:lettuce:[4.3.0,4.4.4.Final]'
+        excludeRegex '.*SNAPSHOT'
+}
