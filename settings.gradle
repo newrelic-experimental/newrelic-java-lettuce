@@ -10,3 +10,4 @@ git {
 rootProject.name = 'java-instrumentation-template'
 include 'Lettuce-5.x'
 include 'Lettuce-4.x'
+include 'Lettuce-6.0'
