@@ -1,3 +1,5 @@
+[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
+
 # New Relic Java Instrumentation for Lettuce Redis Driver
 
 Instrumentation for the Lettuce driver for Redis (https://lettuce.io).   Once installed it will report the Lettuce calls to Redis as database calls in the New Relic Java Agent.
