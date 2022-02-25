@@ -1,5 +1,22 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
+
+![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-java-lettuce?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-java-lettuce?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-java-lettuce?style=social)
+
+![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-java-v/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-java-v)
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-java-lettuce)
+![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-java-lettuce)
+
+
+![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-java-lettuce)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-java-lettuce)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-lettuce)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-lettuce) 
+
+
 # New Relic Java Instrumentation for Lettuce Redis Driver
 
 Instrumentation for the Lettuce driver for Redis (https://lettuce.io).   Once installed it will report the Lettuce calls to Redis as database calls in the New Relic Java Agent.
