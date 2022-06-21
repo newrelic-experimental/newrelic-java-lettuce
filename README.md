@@ -16,6 +16,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-lettuce)
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-lettuce) 
 
+**This repo is now part of the Java Agent (version 7.8.0 and later).  Therefore it has been archived.**
 
 # New Relic Java Instrumentation for Lettuce Redis Driver
 
